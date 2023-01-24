@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.jakewharton.butterknife'
+    id 'git-repo'
 }
 
 android {
@@ -49,4 +51,7 @@ dependencies {
 
     annotationProcessor 'us.shiroyama.android:ormlitefields-processor:1.0.1'
     implementation 'com.j256.ormlite:ormlite-android:5.0'
+
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
 }
