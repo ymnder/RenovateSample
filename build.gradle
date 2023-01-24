@@ -2,9 +2,11 @@ buildscript {
     repositories {
         mavenCentral()
         google()
+        maven { url 'https://jitpack.io' }
     }
     dependencies {
         classpath 'com.jakewharton:butterknife-gradle-plugin:10.2.3'
+        classpath 'com.github.atsushi-ageet:gradle-git-repo-plugin:2.0.4'
     }
 }
 
